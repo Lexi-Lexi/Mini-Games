@@ -9,7 +9,7 @@ namespace Arena_Fighter
           - Dexterity: It decides the possibility of dodging attack, or succeeding attack.
             If defender's dexterity is 6 and is higher than attacker, attacker may fail the attack with the 50% possibility.
             If attacker's dexterity is 1 and is lower than defender, defender may dodge the attack with the 50% possibility.
-          - Luck: It decides dice rolls. You may obtain lucky charms at Alechemy shop to increase your luck level.
+          - Luck: It decides dice rolls. You may obtain lucky charms at Alchemy shop to increase your luck level.
             Luck level 6 - the minimum value of each dice roll becomes 2, not 1.
             Luck level 1 - the maximum value of each dice roll becomes 5, not 6. */
 
