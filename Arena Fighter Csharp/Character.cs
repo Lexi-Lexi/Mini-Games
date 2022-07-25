@@ -13,6 +13,8 @@ namespace Arena_Fighter
             Luck level 6 - the minimum value of each dice roll becomes 2, not 1.
             Luck level 1 - the maximum value of each dice roll becomes 5, not 6. */
 
+        private Random random = new Random();
+
         public static string[] enemy_names = new string[] {"Spartacus", "Crixus", "Gannicus", "Lucretia", "Oenomaus", "Vitus", "Marcus",
         "Tiberius", "Ilithyia", "Agron", "Glaber"}; // These names are retrieved from an American tv-series Spartacus
 
@@ -20,9 +22,7 @@ namespace Arena_Fighter
         private int health = 50; // default 50. Obtain potions to recover at Alchemy shop.
         private int strength;
         private int dexterity; // character may dodge the attack
-        private int luck; // min dice value 2 for every attack and dodge try
-        private Random random = new Random();
-
+        private int luck; 
 
         // constructor
         public Character()
