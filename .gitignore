@@ -1,13 +1,13 @@
 # C#
 
 # Ignore .vs
-/.vs
+*/.vs
 
 # Ignore bin
-/bin
+*/bin
 
 # Ignore obj
-/obj
+*/obj
 
 
 # Java
