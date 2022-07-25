@@ -1,0 +1,105 @@
+
+* * * * * * * * * * * * * * * * * * * * * * * *
+
+Welcome, newcomer! You are about to start your new life as a gladiator.
+You shall fight in Arena of Gory and Glory. 
+It will not be easy, but you get a chance to retire and live as a free man after each victory.
+
+Remember, your statistics - health, strength, dexterity, and luck - as well as your gears - helmet, armor, sword - decide your fate.
+
+* * * * * * * * * * * * * * * * * * * * * * * *
+
+1. Battle actions
+
+Each attack inflicts health damage 1 to 6, depending on dice rolls. The damage may be increased by attacker's strength.
+You may automatically dodge an attack, depending on your dexterity.
+
+* * * * * * * * * * * * * * * * * * * * * * * *
+
+2. Statistics
+
+Health: You start with 50. Each attack deducts your health. You die at 0.
+You may obtain potions to recover at Alchemy shop.
+
+The following statistics are decided randomly [1-6].
+
+- Strength: It decides how much damage your attack inflicts on enemy. Each strength level increases damage by 1, aside from basic attack damage [1-6]
+ex) If an attack dice is 5 and your strength level is 3, you inflict 8 health damage.
+
+
+- Dexterity: It decides the possibility of dodging attack, or succeeding attack.
+If defender's dexterity is 6 and is higher than attacker, attacker may fail the attack with the 50% possibility.
+If attacker's dexterity is 1 and is lower than defender, defender may dodge the attack with the 50% possibility.
+Otherwise, attacks always succeed. When both have 6 or 1, these specials rules do not apply and attack always succeeds.
+
+
+- Luck: It decides dice rolls. You may obtain lucky charms at Alechemy shop to increase your luck level.
+Luck level 6 - the minimum value of each dice roll becomes 2, not 1.
+Luck level 1 - the maximum value of each dice roll becomes 5, not 6.
+
+* * * * * * * * * * * * * * * * * * * * * * * *
+
+3. Crystal
+
+Currency for Alchemy shop and Armory.
+You start with 50 crystal. Each battle win is awarded with 100 crystal.
+You may get bonus for games that our audience loved. You may get bonus of 20 crystal, for neck and neck battles with the number of attacks exchanged 13+ times. 
+
+* * * * * * * * * * * * * * * * * * * * * * * *
+
+4. Gears
+
+You and your enemy are given a sword every battle, but wear either helmet or armor, randomly chosen each time.
+Your enemy is always given Common sword and one of the Common helmet and armor.
+If you have upgraded you gear, you are given upgraded gears.
+
+Common sword adds no extra attack damage.
+Common helmet protects you from attack and reduces health damage by 1.
+Common armor protects you from attack and reduces health damage by 1.
+
+You may upgrade your gears in Armory.
+There are four levels for each gear, which are Common, Rare, Epic and Legendary.
+For each level upgrade, the sword adds attack damage by 1.
+For each level upgrade, the helmet and armor respectively reduce damage by 1.
+The maximum upgrade is level 4, or Legendary.
+
+* * * * * * * * * * * * * * * * * * * * * * * *
+
+5. Check status
+
+You may check your current health, strength, dexterity, luck, crystal, as well as the levels of your gears.
+Check your current health and purchase potions to recover for the next battle.
+
+* * * * * * * * * * * * * * * * * * * * * * * *
+
+6. Alchemy shop
+
+You can purchase items from Alchemy shop with crystals you have.
+
+Small potion (10 crystal) - restore health by 5
+Potion (20 crystal) - restore health by 15
+Large potion (30 crystal) - restore health by 25
+Elixir (50 crystal) - recover completely
+Lucky Charm (300 crystal) - increase luck level by 1
+Tabula Rasa (100 crystal) - reassign a random value [1-6] for strength or dexterity
+
+* * * * * * * * * * * * * * * * * * * * * * * *
+
+7. Armory
+
+You can upgrade your sword, helmet, and armor from Armory.
+
+Rare Lvl 2 upgrade (100 crystal)
+Epic Lvl 3 upgrade (200 crystal)
+Legendary Lvl 4 upgrade (400 crystal)
+
+* * * * * * * * * * * * * * * * * * * * * * * *
+
+8. Retire
+
+You can choose to retire from Arena after each battle.
+You may live as a free man after retirement.
+Win as many times as you can, and and be a legend of the Arena!
+
+* * * * * * * * * * * * * * * * * * * * * * * *
+
