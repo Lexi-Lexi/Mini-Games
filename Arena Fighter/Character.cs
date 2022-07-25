@@ -30,7 +30,7 @@ namespace Arena_Fighter
             name = enemy_names[random.Next(enemy_names.Length)]; // random name
             strength = random.Next(1, 7);
             dexterity = random.Next(1, 7);
-            luck = luck = random.Next(1, 7);
+            luck = random.Next(1, 7);
         }
         public Character(string name)
         { // character creation
