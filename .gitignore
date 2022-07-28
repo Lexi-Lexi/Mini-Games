@@ -10,4 +10,14 @@
 */obj
 
 
+
 # Java
+
+# Ignore .settings
+*/.settings
+
+# Ignore bin
+*/bin
+
+# Ignore .classpath
+*/.classpath
