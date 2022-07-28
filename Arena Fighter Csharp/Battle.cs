@@ -18,8 +18,6 @@ namespace Arena_Fighter
         public void fight()
         {
             enemy = new Character();
-            int my_strength = Arena.my_character.get_strength();
-            int enemy_strength = enemy.get_strength();
             string attacker_name;
 
             // Variables for some dexterity-related rules.

@@ -27,15 +27,15 @@ namespace Arena_Fighter
 
                 // check luck for random range
                 if (Arena.my_character.get_luck() == 6)
-                {
+                {   // lucky man! max 6, min 2
                     dice_result = random.Next(2, 7);
                 }
                 else if (Arena.my_character.get_luck() == 1)
-                {
+                {   // unlucky man! max 5, min 1
                     dice_result = random.Next(1, 6);
                 }
                 else
-                {
+                {   
                     dice_result = random.Next(1, 7);
                 }
 

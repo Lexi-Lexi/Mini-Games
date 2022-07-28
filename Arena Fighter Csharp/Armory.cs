@@ -21,7 +21,7 @@ namespace Arena_Fighter
 
         public void enter()
         {
-            Console.WriteLine("Welcome to the Alchemy Shop! You have " + Arena.crystal + " crystal.");
+            Console.WriteLine("Welcome to the Armory! You have " + Arena.crystal + " crystal.");
             Console.WriteLine("You can upgrade your gear here. Each gear - sword, helmet , armor - needs to be upgraded separately.");
             Console.WriteLine("\nPrice List\nCommon (lvl 1) |\nRare (lvl 2) | 100 crystal\nEpic (lvl 3) | 200 crystal\nLegendary (lvl 4) | 400 crystal");
 

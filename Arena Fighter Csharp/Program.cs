@@ -69,7 +69,7 @@ namespace Arena_Fighter
                                 if (win_num >= 50 && win_num < 60)
                                 {
                                     Console.WriteLine("You already have become the living legend of Arena.\nYou are getting old and your body may not last the next battle.");
-                                    Console.WriteLine("Think wisely. Retire soon.");
+                                    Console.WriteLine("Think wisely. Retire soon.\n");
                                     my_battle.fight();
                                     my_battle_record.Add(my_battle);
 
@@ -78,6 +78,7 @@ namespace Arena_Fighter
                                 {
                                     Console.WriteLine("Make space for younger gladiators. You may not enter any more battles.\nTime to retire.");
                                     retire();
+                                    return;
 
                                 }
                                 else // 0 ~ 49 wins 
@@ -182,19 +183,19 @@ namespace Arena_Fighter
             }
             else if (win_num >= 2 && win_num < 15)
             {
-                Console.WriteLine("{0} | You retire as a modest gladiator. Surviving is what matters.", win_num);
+                Console.WriteLine("{0} wins | You retire as a modest gladiator. Surviving is what matters.", win_num);
             }
             else if (win_num >= 15 && win_num < 35)
             {
-                Console.WriteLine("{0} | You have made the Arena of Gory and Glory gorier and more glorious. Your retirement is celebrated by some.", win_num);
+                Console.WriteLine("{0} wins | You have made the Arena of Gory and Glory gorier and more glorious. Your retirement is celebrated by some.", win_num);
             }
             else if (win_num >= 35 && win_num < 50)
             {
-                Console.WriteLine("{0} | You are the best gladiator of your generation. Many people will remember your name.", win_num);
+                Console.WriteLine("{0} wins | You are the best gladiator of your generation. Many people will remember your name.", win_num);
             }
             else
             { // // 50 - 70
-                Console.WriteLine("{0} | You are the greatest gladiator this Arena has ever seen." +
+                Console.WriteLine("{0} wins | You are the greatest gladiator this Arena has ever seen." +
                     "\nYour name will remain in history and people will remember your name for hundreds of years.", win_num);
             }
             Console.WriteLine("\n* * * * * * * * * * * * * * * * * * * * * * * *\n");
@@ -228,7 +229,7 @@ namespace Arena_Fighter
             }
             else
             { // 50 - 70
-                Console.WriteLine("{0} | You were the greatest gladiator this Arena has ever seen." +
+                Console.WriteLine("{0} wins | You were the greatest gladiator this Arena has ever seen." +
                     "\nYou embraced your death at the place you shined most." +
                     "\nYour name will remain in history and people will remember your name for hundreds of years.", win_num);
             }
